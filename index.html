@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>موقع كلان Arc</title>
+
+    <meta property="og:title" content="موقع كلان Arc" />
+    <meta property="og:description" content="موقع كل ما يخص كلان Arc" />
+    <meta property="og:image" content="/deltaforcelogo.jpg" /> <meta property="og:url" content="https://your-replit-app-link.replit.dev/" /> <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"> 
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <style>
+      /* تعريف الخط الجديد */
+      @font-face {
+        font-family: 'Arabic UI Display Medium 2'; /* اسم الخط الذي ستستخدمه في CSS */
+        src: url('/fonts/Arabic.otf.ttf') format('truetype'), /* تأكد من المسار الصحيح هنا */
+             url('/fonts/Arabic.otf.ttf') format('woff2'); /* أضف تنسيقات الخط الأخرى إذا كانت متوفرة */
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap; /* لتحسين تحميل الخط */
+      }
+
+      body {
+        background-color: #1a202c; /* لون خلفية مطابق لتطبيق React */
+        font-family: 'Arabic UI Display Medium 2', 'Inter', sans-serif; /* تطبيق الخط على كامل الجسم، مع Inter كبديل */
+      }
+    </style>
+  </head>
+  <body class="font-inter">
+    <div id="root"></div> 
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
